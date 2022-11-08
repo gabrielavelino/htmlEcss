@@ -1,0 +1,173 @@
+
+body {
+
+    background: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.tribu {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.teste {
+    width: 20%;
+    float: left;
+    margin-left: 300px;
+    margin-right: 10px;
+    opacity: 0.7;
+    box-shadow: -10px -10px 10px black, 10px 10px 10px black;
+    
+}
+
+section p {
+    margin-top: 50px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+section ul {
+    
+    font-size: 18px;
+    display: inline-block;
+    
+}
+
+.beneficios {
+    margin-left: 500px;
+}
+
+#nome {
+    clear: left;
+    font-size: 25px;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#missao {
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+strong {
+    color: red;
+
+}
+
+.itens {
+    font-style: italic;
+    padding-bottom: 10px;
+} 
+
+.itens::before {
+    content: "*";
+}
+
+.mapa {
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+
+#timapa {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.txtmapa {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Operações importantes
+
+Seletor >, para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main:
+
+main > p {
+}
+
+Seletor +, para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img:
+
+img + p {
+}
+
+Seletor ~, para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img:
+
+img ~ p {
+}
+
+Seletor not, para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, exceto o p que tem id missao:
+
+main p:not(#missao) {
+}
+
+propriedade calc para realizar calculos no CSS
+
+width = calc(40% - 10px);
+
+*/
+
+
+
+
+
+/* LOGO NETFLIX TESTE */
+
+#netflix {
+    width: 830px;
+    height: 250px;
+    background: linear-gradient(white,grey);
+    color: brown;
+    padding-left: 650px;
+}
+
+.net {
+    width: 40px;
+    height: 200px;
+    background: red;
+    position: relative;
+}
+
+
+.net::before {
+    content: " ";
+    width: 40px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    left: 73px;
+}
+
+.net::after {
+    content: " ";
+    width: 175px;
+    height: 20px;
+    background: rgb(0, 0, 0)(0, 0, 0);
+    position: absolute;
+    bottom: -10px;
+    left: -15px;
+}
+
+span {
+    width: 40px;
+    height: 200px;
+    background: #e50914;
+    position: absolute;
+    left: 36.3px;
+    transform: skew(20deg);
+    box-shadow: 0 0 10px -4px #000;
+}

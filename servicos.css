@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: linear-gradient( #ccc 70%,white);
+}
+#imagemTopo {
+    position: relative;
+    right: 200px;
+    width: 30%;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+ 
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.href {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.servicos {
+    width: 960px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 29.5%;
+    vertical-align: top;
+    font-size: 20px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+#iconProc {
+    font-size: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#iconEstag {
+    font-size: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#iconSind {
+    font-size: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.servicos h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.servicos li:hover {
+    border-color: red;
+
+}
+
+.servicos li:active {
+    border-color: yellow;
+}
+
+.servicos li:hover h2 {
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+}
+
+footer p {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.fundoimg {
+    width: 15%;
+}
